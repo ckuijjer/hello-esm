@@ -17,7 +17,11 @@ Example TypeScript code compiling to ESM JavaScript and able to use top level aw
 
 - [] Simplify tsconfig.json (e.g. `"extends": "@tsconfig/node16-strictest-esm"` or `@tsconfig/esm`)
 - [] different ways of running TypeScript
-  - [] _ts-node_
+  - [x] _ts-node_
   - [] _ts-eager_
-  - [] _esrun_
+  - [x] _esrun_
 - [] build package using _tsup_
+
+## Remarks
+
+_tsconfig.json_ has `"target": "es2022"` as _esrun_ otherwise complains about top-level await. Node 16 supports most of es2022, see https://node.green/#ES2022 and https://kangax.github.io/compat-table/es2016plus/#node16_11, but it does feel a bit icky.
