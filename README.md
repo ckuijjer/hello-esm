@@ -5,7 +5,9 @@ Example TypeScript code compiling to ESM JavaScript and able to use top level aw
 
 ## Usage
 
-`npm run build && DEBUG=* npm run start`
+- `npm run node` -- build using tsc, run using node
+- `npm run ts-node`
+- `npm run esrun` -- build using esbuild
 
 ## References
 
