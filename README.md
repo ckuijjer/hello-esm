@@ -17,7 +17,7 @@ Example TypeScript code compiling to ESM JavaScript and able to use top level aw
 
 ## Todo
 
-- [ ] Simplify tsconfig.json (e.g. `"extends": "@tsconfig/node16-strictest-esm"` or `@tsconfig/esm`)
+- [x] Simplify tsconfig.json (e.g. `"extends": "@tsconfig/node16-strictest-esm"` or `@tsconfig/esm`)
 - [ ] different ways of running TypeScript
   - [x] _ts-node_
   - [ ] _ts-eager_
