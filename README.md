@@ -23,7 +23,8 @@ Example TypeScript code compiling to ESM JavaScript and able to use top level aw
   - [ ] _ts-eager_
   - [x] _esrun_
 - [ ] build package using _tsup_
-- [ ] test debugging
+- [x] test debugging
+  - [ ] fix debugging for _esrun_
 
 ## Remarks
 

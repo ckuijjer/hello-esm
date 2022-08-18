@@ -11,7 +11,7 @@
     "start": "DEBUG=hello-esm node dist/index.js",
     "node": "npm run build && npm run start",
     "ts-node": "DEBUG=hello-esm ts-node --esm index.ts",
-    "esrun": "DEBUG=hello-esm esrun index.ts",
+    "esrun": "DEBUG=hello-esm esrun --inspect index.ts",
     "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist"
