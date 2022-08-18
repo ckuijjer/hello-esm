@@ -23,6 +23,8 @@ Example TypeScript code compiling to ESM JavaScript and able to use top level aw
   - [ ] _ts-eager_
   - [x] _esrun_
 - [ ] build package using _tsup_
+  - [ ] can't import `"extends": "@tsconfig/node16-strictest-esm"` in _tsconfig.json_
+  - [ ] can't do top level await in output CJS, I think consuming apps need to import library using dynamic import
 - [x] test debugging
   - [ ] fix debugging for _esrun_
 
